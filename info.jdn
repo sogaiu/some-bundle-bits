@@ -5,12 +5,8 @@
  :vendored
  [{:name "janet-ex-as-tests"
    :url "https://github.com/sogaiu/janet-ex-as-tests"
-   :tag "3dfb3dd617879cd94651a8cb6c354c2de0bf0b3c"
-   :files [["init.janet" "jeat/"]
-           ["location.janet" "jeat/"]
-           ["loc-jipper.janet" "jeat/"]
-           ["make-and-run-tests.janet" "jeat/"]
-           ["to-test.janet" "jeat/"]
-           ["zipper.janet" "jeat/"]
-           ["trigger-jeat.janet" "test/"]]}]}
+   :tag "4f58b7d5e2521cdf609b625ceb7366348c958aee"
+   :files ["jeat"
+           # XXX: if "test" exists already, following is safer
+           ["test/trigger-jeat.janet" "test/"]]}]}
 
