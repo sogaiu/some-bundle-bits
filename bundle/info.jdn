@@ -5,6 +5,6 @@
  :vendored
  [{:name "niche"
    :url "https://github.com/sogaiu/niche"
-   :tag "419933e4d6e27a6625bd3494aa71659ec8f36f25"
+   :tag "728321b1e91c6dd7086bdd1dc28f41cba94fbaec"
    :paths [["niche.janet" "bin/"]]}]}
 
