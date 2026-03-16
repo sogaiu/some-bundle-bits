@@ -1,0 +1,10 @@
+{:name "some-bundle-bits"
+ :url "https://github.com/sogaiu/some-bundle-bits"
+ :repo "git+https://github.com/sogaiu/some-bundle-bits"
+
+ :vendored
+ [{:name "niche"
+   :url "https://github.com/sogaiu/niche"
+   :tag "419933e4d6e27a6625bd3494aa71659ec8f36f25"
+   :paths [["niche.janet" "bin/"]]}]}
+

@@ -407,9 +407,9 @@
         (bundle/add manifest i (string pre i))
         #
         (tuple? i)
-        (let [[src rename] i]
-          # XXX: ensure src refers to a file?
-          (bundle/add-file manifest src (string pre rename)))
+        (let [[i-src rename] i]
+          # XXX: ensure i-src refers to a file?
+          (bundle/add-file manifest i-src (string pre rename)))
         #
         (errorf "expected string or tuple, got: %n" (type i))))))
 
